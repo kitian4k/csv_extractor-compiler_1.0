@@ -5,6 +5,7 @@ import pandas as pd
 from datetime import datetime
 import subprocess, os, platform
 
+# for app size
 def center_window(window, width, height):
     screen_width = window.winfo_screenwidth()
     screen_height = window.winfo_screenheight()
